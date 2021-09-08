@@ -24,7 +24,9 @@ manifest:
       path: nrf
       revision: v1.6.0
       remote: LairdCP
-      import: true
+      import: 
+        name-blacklist:
+          - zephyr
     - name: zephyr
       revision: 48ec18e87c38b82f9d36d7daf1616b295a581ae7
       remote: LairdCP
